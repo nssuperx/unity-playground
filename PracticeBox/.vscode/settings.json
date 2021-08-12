@@ -52,5 +52,9 @@
         "temp/":true,
         "Temp/":true
     },
-    "terminal.integrated.defaultProfile.windows": "Git Bash"
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "[csharp]": {
+        "editor.defaultFormatter": "ms-dotnettools.csharp"
+    },
+    "omnisharp.useEditorFormattingSettings": false,
 }
