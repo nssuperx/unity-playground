@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SetSymbol : MonoBehaviour {
+public class SetSymbol : MonoBehaviour
+{
     [SerializeField] private string symbol = "";
 
     public string GetSymbol() {
@@ -10,12 +11,12 @@ public class SetSymbol : MonoBehaviour {
     }
 
     // Use this for initialization
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    void Start() {
+
+    }
+
+    // Update is called once per frame
+    void Update() {
+
+    }
 }
